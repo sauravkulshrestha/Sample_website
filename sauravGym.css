@@ -1,0 +1,123 @@
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            overflow: hidden;
+            color: wheat;
+            margin: 0px;
+            padding: 0px;
+            background: url('Images/bg.jpg');
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            margin: 5px 30px;
+            left: 10px;
+            top: 20px;
+            font-family: 'Pacifico', cursive;
+            text-align: center;
+            line-height: 20px;
+            font-size: large;
+        }
+
+        .left img {
+            filter: invert(100%);
+            width: 100px;
+        }
+
+
+        .mid {
+            display: block;
+            width: 42%;
+            /* border: 2px solid yellow; */
+            margin: 20px auto;
+        }
+
+        .mid li {
+            display: inline-block;
+            font-size: 20px;
+            font-family: 'Merriweather', serif;
+        }
+
+        .mid li a {
+            text-decoration: none;
+            color: whitesmoke;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .mid li a:hover {
+            color: rgb(179, 177, 177);
+            text-decoration: underline;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 10px;
+            top: 20px;
+            /* border: 2px solid green; */
+            display: inline-block;
+        }
+
+        .btn {
+            margin: 0px 10px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 3px solid whitesmoke;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+        .btn:hover {
+
+            color: gray;
+            background-color: honeydew;
+        }
+
+        .container {
+            /* border: 2px solid white; */
+            color: white;
+            display: inline-block;
+            position: absolute;
+            top: 180px;
+            margin: 75px 150px;
+            padding: 65px 20px;
+            width: 33%;
+            text-align: center;
+            border-radius: 20px;
+            border-radius: 10px;
+            font-family: 'Indie Flower', cursive;
+        }
+
+        .form-group input {
+            text-align: center;
+            border: 4px solid grey;
+            border-radius: 30px;
+            margin: 5px auto;
+            padding: 3px 80px;
+            font-size: larger;
+
+        }
+
+        .container .btn {
+            width: 400px;
+            margin: 10px auto;
+            border-radius: 20px;
+            background-color: rgb(58, 53, 53);
+            font-size: x-large;
+
+        }
+
+        .container .btn:hover {
+            color: black;
+        }
